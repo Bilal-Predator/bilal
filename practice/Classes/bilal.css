@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.border {
+    border: 2px solid rgb(223, 104, 104);
+border-color: rgb(225, 91, 91);
+color: rgb(216, 53, 53);
+margin-bottom: 1000px;
+
+
+}
+
+.My-Header {
+    background-color: rgb(232, 163, 163);
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+nav ul {
+
+    list-style: none;
+    text-align: right;
+    font-size: 22px;
+    margin-top: 12px;
+
+}
+
+nav {
+    margin: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+    padding: 15px;
+
+    /* margin-top: 12px;
+    margin-bottom: 12px; */
+}
+
+button {
+    border: 2px solid black;
+    background-color: rgb(232, 163, 163);
+    color: white;
+    padding: 8px;
+}
+main{
+    margin: 22px;
+    padding: 10px;
+    
+}
+.page{
+    background-color: rgb(232, 163, 163);
+    padding: 10px;
+}

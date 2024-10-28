@@ -1,0 +1,14 @@
+div{
+    border: 2px solid black;
+    margin: auto;
+    padding: 22px;
+    background-color: black;
+}
+strong{
+    color: white;
+    /* margin: 22px;
+    padding: 22px; */
+}
+form{
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+td{
+    border: 2px solid black;
+    margin: auto;
+    padding: 2px;
+
+}
+th{
+    border: 2px solid black;
+    margin: auto;
+    padding: 2px;
+
+}
+/* div{
+    border: 2px solid black;
+    margin: auto;
+    padding: 2px;
+    
+} */
+
+.container{
+    border: 2px solid black;
+}

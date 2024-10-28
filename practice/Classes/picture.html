@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bgImg {
+            background-image: url('../Tree.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            /* width: 100vw; */
+            /* border: 2px solid red; */
+            background-attachment: fixed;
+            /* overflow-x: none; */
+            /* opacity: 20%; */
+            padding-left: 12px;
+        }
+
+        /* .border {
+            border: 2px solid blue;
+        } */
+
+        .color-1 {
+            color: white;
+
+        }
+
+        .color-2 {
+            color: greenyellow;
+        }
+
+        .box1 {
+            width: 50%;
+            margin-top: 100px;
+            /* text-align: center; */
+            float: left;
+            width: 50%;
+            display: inline;
+            font-size: large;
+            font: bold;
+            /* opacity: 100%; */
+        }
+
+        .box2 {
+            width: 50%;
+            margin-top: 100px;
+            float: right;
+            width: 48%;
+            color: black;
+            display: inline;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .button2 {
+
+
+            padding: 10px;
+
+            background-color: white;
+            color: greenyellow;
+            border-radius: 15px;
+        }
+
+        .forM {
+            background-color: black;
+            margin: 10px;
+            padding: 8px;
+            text-align: center;
+            border-radius: 25px;
+
+        }
+
+        #email {
+            margin: 10px;
+        }
+
+        #password {
+            margin: 10px;
+        }
+
+        p {
+            color: white;
+            text-align: justify;
+        }
+
+        .bt {
+            padding: 10px 20px;
+
+            background-color: greenyellow;
+            border-radius: 15px;
+
+        }
+
+        .p2 {
+            text-align: center;
+        }
+
+        h4 {
+            color: yellowgreen;
+        }
+
+        .nav {
+            color: white;
+            background-color: black;
+            margin-left: 90px;
+            margin-right: 15px;
+            margin-top: 20px;
+           
+        }
+       .search {
+        background-color: yellowgreen;
+        color: white;
+        padding: 2px;
+
+        }
+        #search{
+            margin-left: 100px;
+            padding: 2px;
+        }
+        .Stick{
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bgImg border">
+        <div class="Stick">
+        <nav>
+            <ul>
+                <button class="nav">Home</button>
+                <button class="nav">About</button>
+                <button class="nav">Service</button>
+                <button class="nav">Design</button>
+                <button class="nav">Contact us</button>
+                <input type="search" id="search" placeholder="Type a search"><label class="search" for="Search">Search</label>
+            </ul>
+        </nav></div>
+        <div class="box1 border">
+            <h1 class="color-1">Web Design &</h1>
+            <h1 class="color-2">Development</h1>
+            <h1 class="color-1">Classes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, eos quidem? Libero, facilis? Blanditiis,
+                dolores? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum et id ad nesciunt, culpa odio
+                beatae fugiat dolores. Saepe deserunt voluptatum nulla illo nostrum rem maxime incidunt deleniti nobis
+                amet?</p>
+            <input class="bt" type="button" value="Join Us">
+        </div>
+        <div class="box2 border">
+            <form action="backend.php" class="forM">
+                <h3> <strong class="button2">Login Here</strong></h3>
+                <input type="email" id="email" placeholder="Enter your Email"><br>
+                <input type="password" id="password" placeholder="Enter your password"><br>
+                <input class="bt" type="button" value="Log in">
+                <p class="p2">Dont Have an account?</p>
+                <h4>Sign up here</h4>
+                <p class="p2">If you Have any problem</p>
+                <button class="bt">Contact Us</button>
+
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
